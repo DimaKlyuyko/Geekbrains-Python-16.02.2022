@@ -1,3 +1,3 @@
-# Geekbrains-Python-16.03.2022
+# Geekbrains-Python-16.02.2022
 
 Здесь храняться мои домашние задания по курсу "Основы Python. Интерактивный курс" в GeekBrains!
