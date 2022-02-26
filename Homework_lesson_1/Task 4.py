@@ -2,15 +2,18 @@
 # Найдите самую большую цифру в числе.
 # Для решения используйте цикл while и арифметические операции.
 
-number = int(input("Введите целое положительное число. (макс. 3 цифры) >>> "))
+user_input = input("Введите целое число >>> ")
 
-n1 = number // 10
-n2 = number % 10
+if not user_input.isdigit():  # проверка, что было введено целое число
+    print("Вы ввели что-то не то...")
+    exit()
 
-if 0 < number < 100:
-    if n1 > n2:
-        print("Самая большая цифра в числе =", n1)
-    else:
-        print("Самая большая цифра в числе =", n2)
-else:
-    print("Ошибка. Введенное значение не соответствует условию.")
+number = int(user_input)
+max_number = 0
+
+while number and max_number != 9:  # переменная number просто должна существовать, т.е. быть > 0
+    current = number % 10  # запоминаю первую цифру справа
+    number = number // 10  # уменьшаю число на 1 цифру справа
+    max_number = current if current > max_number else max_number  # переприсваиваю большую цифру
+
+print(max_number)
