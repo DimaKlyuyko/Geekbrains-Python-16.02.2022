@@ -1,0 +1,5 @@
+Informatika: 100(lekcia) 50(praktika) 20(lab)
+Fizika: 30(lekcia) 10(lab)
+Fizkultura: 30(praktika)
+Matematika: 70(lekcia) 20(praktika)
+Biologia: 70(lekcia) 10(lab)

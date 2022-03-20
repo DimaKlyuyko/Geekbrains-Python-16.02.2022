@@ -1,0 +1,10 @@
+Ivanov 100
+Petrov 550
+Korshumov 300
+Pushkin 400
+Esenin 250
+Dostoevskiy 350
+Gogol 150
+Vetrov 450
+Turgenev 500
+Chechov 200

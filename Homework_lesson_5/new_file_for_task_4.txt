@@ -1,0 +1,4 @@
+Odin - 1
+Dwa - 2
+Tri - 3
+Chetiri - 4
